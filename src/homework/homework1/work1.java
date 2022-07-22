@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package homework.homework1;
 
 public class work1 {
     public static void main(String[] args) {
@@ -6,10 +6,8 @@ public class work1 {
         String hi = "                Hello ";
         String world = " WoRld!";
         char newLine = '\n';
-        String asd = world.trim().toLowerCase();
-        String qwe = hi + asd + newLine;
-        String zxc = qwe.trim();
-        System.out.println((zxc + newLine).repeat(3));
+        String asd = hi.trim() + world.toLowerCase() + newLine;
+        System.out.println(asd.repeat(3));
         // задача 2
         double sas = 1.90;
         double sis = 22.5;
@@ -23,5 +21,6 @@ public class work1 {
         System.out.println(vbn1);
 
 
+        
         }
     }
