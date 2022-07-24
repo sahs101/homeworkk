@@ -19,6 +19,7 @@ public class work2_basic {
             } else {
                 System.out.println("пошёл в университет");
             }
+            //задание 3
         boolean chicken = true;
         boolean vegetables = true;
         boolean sour = true;
@@ -34,10 +35,17 @@ public class work2_basic {
         } else {
             System.out.println("У повара нет ингридиентов");
         }
+        //задание 4
 // Создать два класса, которые описывают какое либо животное (имеют два атрибута).
         // Написать к ним конструктор, сеттеры, геттеры.
         // Создать экземпляры этих двух животных.
 
+    SvinKing svinutus = new SvinKing("Svinutus", 11);
+       PsinaKing gavgavich = new PsinaKing("GavGavich", 1);
+        System.out.println(svinutus.name);
+        System.out.println(svinutus.number);
+        System.out.println(gavgavich.name);
+        System.out.println(gavgavich.number);
 
         }
     }
