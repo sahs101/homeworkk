@@ -8,5 +8,15 @@ public class SvinKing {
         this.number = rulerNumber;
 
     }
+public void getName() {
+    System.out.println("King " + this.name);
+}
+public void getNumber() {
+    System.out.println("Ruler " + this.number);
 
+}
+public void setNewRuler(String newRuler) {
+        this.name = "Правитель - " + name + " " + number + " умер, " + "новый правитель - " + newRuler ;
+    System.out.println(name);
+    }
 }

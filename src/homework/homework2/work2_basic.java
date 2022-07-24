@@ -42,10 +42,12 @@ public class work2_basic {
 
     SvinKing svinutus = new SvinKing("Svinutus", 11);
        PsinaKing gavgavich = new PsinaKing("GavGavich", 1);
-        System.out.println(svinutus.name);
-        System.out.println(svinutus.number);
-        System.out.println(gavgavich.name);
-        System.out.println(gavgavich.number);
+       svinutus.getName();
+       svinutus.getNumber();
+       svinutus.setNewRuler("Bekonus");
+       gavgavich.getName();
+       gavgavich.getNumber();
+       gavgavich.setNewRuler("Sutuliy");
 
         }
     }
