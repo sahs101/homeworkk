@@ -21,14 +21,14 @@ public class work2_basic {
             }
             //задание 3
         boolean chicken = true;
-        boolean vegetables = true;
+        boolean vegetables = false;
         boolean sour = true;
         boolean toast = true;
-        boolean sausage = false;
-        boolean eggs = false;
+        boolean sausage = true;
+        boolean eggs = true;
         if (chicken && vegetables && sour && toast) {
             System.out.println("Повар сделал цезарь");
-        } else if (vegetables && sausage || chicken && eggs) {
+        } else if (vegetables && (sausage || chicken) && eggs) {
             System.out.println("Повар сделал оливье");
         } else if (vegetables) {
             System.out.println("Повар сделал овощной салат");
