@@ -3,7 +3,7 @@ package homework.homework2;
 public class work2_basic {
     public static void main(String[] args) {
         //задание 1
-        for (int i = 0; i < 101 ; i++)
+        for (int i = 1; i < 101 ; i++)
 
                 System.out.print(i + "a ");
         System.out.println();
