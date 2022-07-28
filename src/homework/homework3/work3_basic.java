@@ -8,7 +8,9 @@ public class work3_basic {
     public static void main(String[] args) throws IOException {
         //задание 1
         Toyota toyota = new Toyota();
-        Jigul jigul = new Jigul();
+        Jigul jigul = new Jigul() {
+
+        };
         toyota.carMoving();
         toyota.music();
         toyota.stop();

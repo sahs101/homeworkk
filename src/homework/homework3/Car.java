@@ -12,5 +12,4 @@ public abstract class Car {
     }
 
 
-    protected abstract Toyota repeat(int i);
 }
