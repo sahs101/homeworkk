@@ -11,6 +11,7 @@ public class work3_basic {
         Jigul jigul = new Jigul() {
 
         };
+
         toyota.carMoving();
         toyota.music();
         toyota.stop();
