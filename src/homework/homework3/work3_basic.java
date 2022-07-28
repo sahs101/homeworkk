@@ -3,6 +3,7 @@ package homework.homework3;
 
 import java.io.*;
 
+
 public class work3_basic {
 
     public static void main(String[] args) throws IOException {

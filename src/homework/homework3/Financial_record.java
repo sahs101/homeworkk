@@ -6,6 +6,7 @@ public class Financial_record {
     public Financial_record(int incomes, int outcomes ){
 this.money = incomes;
 this.nomoney = outcomes;
+
     }
 
 

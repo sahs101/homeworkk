@@ -6,6 +6,7 @@ public abstract class Car {
         System.out.println("Машина включила фары");
 
 
+
     }
     public void stop() {
         System.out.println("Машина остановилась");
